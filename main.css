@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-image: url(./bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    'container-1' 'container-1''container2'
+    'container-1' 'container-1' 'container2';
+    place-items: center;
+    width: 50%;
+    margin: auto;
+    /* grid-gap: 10px; */
+    
+}
+.container1{
+    grid-area: container-1;
+    padding: 20px;
+    /* width: 50%; */
+
+}
+.container2{
+    grid-area: container2;
+    /* width: 50%; */
+}
+/* .con1{
+    grid-area: con1;
+} */
